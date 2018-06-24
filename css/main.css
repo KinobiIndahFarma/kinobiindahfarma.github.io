@@ -1,0 +1,392 @@
+html {
+  font-size: 16px;
+}
+
+body {
+    font-family: 'Jua', sans-serif;
+}
+
+/* index.html */
+
+.company-logo {
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 41%;
+  border-radius: 12.5rem;   
+}
+
+.jumbotron {
+  background-image: url('../resources/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;     
+  height: 38.75rem;
+  display: flex;
+  align-items: center;
+  font-size: 3.75rem;
+  margin: 10%; 
+  line-height: 0.8;
+} 
+
+.company-name {
+  padding-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+  color: #3D6670;
+  font-weight: 900;
+  font-size: 4.375rem; 
+}
+
+.jumbotron .btn {
+    margin-bottom: 0.375rem;
+    color: #C1E6D3;
+    background-color: #A60D1A;   
+}
+
+.jumbotron .btn:hover {
+   background-color: #4BB9E6;
+   color: #3D6670;  
+}
+
+@media only screen and (max-width: 837px) {
+    .jumbotron {
+       height: 34.375rem;
+    }
+    .company-name {
+        font-size: 3.125rem;
+        line-height: 0.9;
+    }
+    .jumbotron .btn {
+        margin-bottom: 0.25rem;
+        padding: 0.3125rem 0.4375rem;
+    }
+    .company-logo {
+          width: 30%;
+          border-radius: 18.75rem;
+          margin-left: 36%;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .jumbotron {
+        height: 28.125rem;
+    }
+    .company-name {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+    .jumbotron .btn {
+        margin-bottom: 0.4375rem;
+        padding:  0.1875rem 0.25rem;
+    }
+    .company-logo {
+        width: 40%;
+        border-radius: 25rem;
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .jumbotron {
+        height: 25rem;
+    }  
+    .company-name {
+        font-size: 2.3125rem;       
+    }
+    .jumbotron .btn {
+        height: 1.5625rem;
+        padding: 0rem 0.1875rem;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .jumbotron {
+        height: 21.875rem;
+    }     
+    .company-name {
+        font-size: 2.0625rem;
+    } 
+}
+
+@media only screen and (max-width: 413px) {
+    .jumbotron {
+        height: 20rem;
+    }     
+    .company-name {
+        font-size: 1.875rem;       
+    }  
+}
+
+@media only screen and (max-width: 378px) {
+    .jumbotron {
+        height: 18.125rem;
+    }
+     .company-name {
+        font-size: 1.4375rem;
+        line-height: 1.4;
+    }
+}
+
+/* home.html */
+
+.header {
+  border-bottom: 1px solid SeaShell;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  background-color: #C1E6D3;  
+  top: 0;
+  left: 0;
+  margin: 0rem;
+  padding: 0.625rem;
+  height: 5.625rem;
+}
+
+.logo img {
+  width: 4.375rem;
+  border-radius: 4.375rem;
+}
+
+nav {
+  padding-top: 1.0625rem;
+  font-size: 1.25rem;
+  float: right;
+}
+
+.menu { 
+  margin-left: 1.25rem;
+}
+
+.menu a {
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #3B619E; 
+}
+
+.fa-user-md, .fa-calendar-check, .fa-map-marker-alt, .fa-phone-volume {
+  float: left;
+  margin-top: 0.125rem;
+  margin-right: 0.3125rem;
+}
+
+.title h1 {
+  margin-top: 7.5rem;
+  color: #3D6670;
+  font-weight: 900;
+}
+
+.carousel{
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem; 
+  width: 25rem;   
+}
+
+@media only screen and (max-width: 591px) {
+   .menu .btn {
+       margin-bottom: 0.3125rem;
+       display: block;       
+    }
+   .header {
+       height: 10.125rem;
+       justify-content: space-between;       
+    }
+    
+    .logo img {
+       width: 6.25rem;
+       margin-top: 1.2rem;
+    }
+    nav {
+       padding-top: 0.125rem;
+    }
+    .title h1 {
+       margin-top: 10.625rem;
+    }  
+}
+
+@media only screen and (max-width: 491px) {
+   .title h1 {
+       font-size: 2.1875rem;
+    }
+    .carousel {
+        width: 16.875rem;
+    }
+}
+
+/* office.html */
+
+#map {
+   margin-top: 0.625rem;
+}
+
+.office {
+   margin-top: 1.875rem;
+   background-color: #DDE2EB;
+   color: cadetblue;
+   width: 100%;
+   padding: 0.4rem 0;
+}
+
+.office .address {
+    font-weight: 900;
+    font-size: 1.5625rem;
+    margin-bottom: 0.2rem;
+}
+
+.office .street {
+    line-height: 1;
+}
+
+@media only screen and (max-width: 492px) {
+    .office .address {
+        font-size: 1.4375rem;
+    }
+    .office .street {
+        font-size: 0.875rem;
+    }
+}
+
+/* opening-hours.html */
+
+.functional {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+
+#greeting, #day, #time {
+  font-size: 1.0625rem;
+  color: #3B619E;
+}
+
+.background {
+  background-color: aquamarine;
+  margin-top: 2rem;
+  margin-bottom: 3.125rem;
+  height: 70%;
+}
+
+.icon img {
+  width: 40%;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 10%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.schedule-one, .schedule-two, .schedule-three {
+  background-color: darkslategray;
+}
+
+.day-details {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  margin: 0.625rem;
+  padding: 0.3125rem;
+  height: 2.1875rem;
+}
+
+.day-details p, .time-details-one p, .time-details-two p, .time-details-three p {
+  padding-top: 0.25rem;
+  font-size: 0.9375rem;
+}
+
+#button-one, #button-two, #button-three {
+  padding-top: 0.1rem;
+  width: 1.25rem;
+  cursor: pointer;
+}
+
+.time-details-one, .time-details-two, .time-details-three {
+  display: none;
+  color: azure;
+}
+ 
+.rotate, .rotation, .rotating {
+  transition: 0.1s;
+  transform: rotate(90deg);
+}
+
+/* contact.html */
+
+#customer-service {
+  width: 10.625rem;
+  margin: 1.25rem 0;
+  animation: slidein 4s linear 0s infinite alternate;
+  -webkit-animation: slidein 4s linear 0s infinite alternate;
+}
+@keyframes slidein {
+  from { margin-left: -50%; } 
+  to { margin-left: 50%; }  
+}
+
+@-webkit-keyframes slidein {
+  from { margin-left: -50%; } 
+  to { margin-left: 50%; }  
+}
+
+.telephone, .email {
+  width:100%;
+  height: 2.5rem;
+  background-color: cornflowerblue;
+  padding-top: 0.7rem;		
+}
+
+.telephone p, .email p{
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0%{opacity: 0;}
+  50%{opacity: 0.5;}
+  100%{opacity: 1;}
+}
+
+#phone, #mail {
+  margin: 1.25rem 0;
+  width: 4.375rem;
+}
+
+.tab {
+  margin-bottom: 1.25rem;
+}
+
+.tab a {
+  color: darkblue;
+}
+
+.tab a:hover {
+  text-decoration: none;
+  color: #3B619E;
+}
+
+@media only screen and (max-width: 591px) {
+  #customer-service {
+     width: 6.50rem;
+  }
+  #phone, #mail {
+     width: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 346px) {
+  .title h1 {
+    font-size: 2.125rem;
+  }
+  #customer-service {
+    width: 6.25rem;
+  }
+  #phone, #mail {
+    width: 3.125rem;
+  }
+}
+
