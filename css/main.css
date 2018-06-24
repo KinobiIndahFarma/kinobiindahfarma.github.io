@@ -268,7 +268,7 @@ nav {
   background-color: aquamarine;
   margin-top: 2rem;
   margin-bottom: 3.125rem;
-  height: 75%;
+  height: 70%;
 }
 
 .icon img {
@@ -295,6 +295,10 @@ nav {
 .day-details p, .time-details-one p, .time-details-two p, .time-details-three p {
   padding-top: 0.25rem;
   font-size: 0.9375rem;
+}
+
+.day-details p {
+  float: left;
 }
 
 #button-one, #button-two, #button-three {
