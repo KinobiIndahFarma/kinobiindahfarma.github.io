@@ -4,9 +4,6 @@ html {
 
 body {
     font-family: 'Jua', sans-serif;
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 /* index.html */
@@ -271,7 +268,7 @@ nav {
   background-color: aquamarine;
   margin-top: 2rem;
   margin-bottom: 3.125rem;
-  height: 70%;
+  height: 75%;
 }
 
 .icon img {
