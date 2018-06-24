@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Kinobi Indah Farma</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"/>
+        <link href="./css/reset.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"/>
+        
+        <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet"/>
+
+        <style>
+            .spin img {
+               width: 3rem;
+               margin-top: 1.5rem;
+               -webkit-animation: 2s linear slidein;
+               animation: 2s linear slidein;
+            }
+
+            @keyframes slidein {
+              from { transform: scaleX(0); }
+              to   { transform: scaleX(1); }
+            }
+
+            @-webkit-keyframes slidein {
+              from { transform: scaleX(0); }
+              to   { transform: scaleX(1); }
+            }
+            
+        </style>
+        
+    </head>
+
+    <body>
+     
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <img src="./resources/logo.jpg" alt="Kinobi Indah Farma Logo"/>   
+                </div>  
+         
+                <nav class="menu">
+                    <ul>
+                        <li class="btn btn-info btn-sm" role="button"><a href="./products.html">Contoh Produk<i class="fa fa-user-md fa-md"></i></a></li>
+                        <li class="btn btn-info btn-sm active" role="button">Alamat KIF<i class="fa fa-map-marker-alt fa-md fa-spin"></i></li>
+                        <li class="btn btn-info btn-sm" role="button"><a href="./opening-hours.html">Jam Kantor<i class="fa fa-calendar-check fa-md"></i></a></li>
+                        <li class="btn btn-info btn-sm" role="button"><a href="./contact-details.html">Kontak Kami<i class="fa fa-phone-volume fa-md"></i></a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+                
+    <div class="container text-center title">                      
+        <h1 class="display-4">Kinobi Indah Farma</h1>
+    </div>
+        
+    <div class="container text-center spin">
+        <img src="resources/tag.png" alt="Map Tag">        
+    </div>
+                   
+    <div class="container-fluid text-center" id="map">       
+        <a href="https://www.google.com/maps/place/PT+Kinobi+Indah+Farma/@-6.2764372,107.0041718,17z/data=!4m5!3m4!1s0x2e698de1d9c36f43:0x8979cc4990b077e!8m2!3d-6.27584!4d107.0064463" target="_blank">
+        <img src="resources/map.png" class ="img-fluid" alt="Responsive image"/></a>
+    </div>
+        
+    <footer>
+        <div class="container-fluid text-center office">
+            <p class="address">Alamat Kantor</p>
+            <p class="street">Jalan Kampung Pengasinan No. 180A<br/>Pengasinan<br/>Rawalumbu<br/>Kota Bekasi<br/>Jawa Barat<br/>17115</p>
+        </div>
+    </footer>
+                      
+    </body>
+</html>
