@@ -14,12 +14,14 @@ $(document).ready(() => {
 
 var greeting;
 var time = new Date().getHours();
-if (time < 12) {
+if (time < 11) {
     greeting = "Selamat pagi!";
-} else if (time < 18) {
+} else if (time < 16) {
     greeting = "Selamat siang!";
-} else {
+} else if (time < 21) {
     greeting = "Selamat sore!";
+} else {
+    greeting = "Selamat malam!";
 };
 document.getElementById("greeting").innerHTML = greeting;
 
