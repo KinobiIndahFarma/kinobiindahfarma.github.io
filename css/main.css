@@ -294,7 +294,7 @@ nav {
 
 .day-details p, .time-details-one p, .time-details-two p, .time-details-three p {
   padding-top: 0.25rem;
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 
 #button-one, #button-two, #button-three {
