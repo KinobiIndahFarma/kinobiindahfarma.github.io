@@ -1,7 +1,7 @@
 //Slick Carousel
 
-$(document).ready(() => {
-  $('.carousel').slick({
+$(document).ready(function() {
+  $(".carousel").slick({
    arrows: false,
    autoplay: true,
    autoplaySpeed: 1000, 
@@ -40,7 +40,7 @@ days[6] = "Sabtu";
 var current_day = new Date();
 
 var day_value = current_day.getDay();
-var elDay = document.getElementById('day');
+var elDay = document.getElementById("day");
 elDay.innerHTML = (days[day_value]);
 
 
@@ -61,7 +61,7 @@ function startTime() {
   // add a zero in front of numbers<10
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('time').innerHTML = + h + ":" + m + ":" + s + " WIB";
+  document.getElementById("time").innerHTML = + h + ":" + m + ":" + s + " WIB";
   t = setTimeout(function() {
     startTime()
   }, 500);
@@ -70,23 +70,23 @@ startTime();
 
 //Functional Buttons
 
-$(document).ready(() => {
-    $('.arrow-one').on('click', event => {
-    $('#button-one').toggleClass('rotate');
-    $('.time-details-one').toggle().addClass('.schedule-one');
+$(document).ready(function() {
+    $(".arrow-one").on("click", event => {
+    $("#button-one").toggleClass("rotate");
+    $(".time-details-one").toggle().addClass(".schedule-one");
   });
 });
    
-$(document).ready(() => {
-    $('.arrow-two').on('click', event => {
-    $('#button-two').toggleClass('rotation');
-    $('.time-details-two').toggle().addClass('.schedule-two');
+$(document).ready(function() {
+    $(".arrow-two").on("click", event => {
+    $("#button-two").toggleClass("rotation");
+    $(".time-details-two").toggle().addClass(".schedule-two");
     });
  });
       
- $(document).ready(() => {  
-    $('.arrow-three').on('click', event => {
-    $('#button-three').toggleClass('rotating');
-    $('.time-details-three').toggle().addClass('.schedule-three');
+ $(document).ready(function() {  
+    $(".arrow-three").on("click", event => {
+    $("#button-three").toggleClass("rotating");
+    $(".time-details-three").toggle().addClass(".schedule-three");
     });
 });
