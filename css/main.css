@@ -126,7 +126,7 @@ body {
     }
 }
 
-/* home.html */
+/* products.html */
 
 .header {
   border-bottom: 1px solid SeaShell;
@@ -314,7 +314,7 @@ nav {
   transform: rotate(90deg);
 }
 
-/* contact.html */
+/* contact-details.html */
 
 #customer-service {
   width: 10.625rem;
